@@ -1,0 +1,618 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSC309: Programming on the Web, Winter 2016</title>
+	<meta name="viewport" content="width = device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css" >
+</head>
+<body>
+	<header>
+		<h1 id="Home">CSC309: Programming on the Web, Winter 2016</h1>
+	</header>
+
+<div>
+	<nav id="navigation" >
+	<ul>
+		<li><a href="#Home" class="active">Home</a></li>
+  		<li><a href="#Assignments">Assignments</a></li>
+  		<li><a href="https://piazza.com/class/ij76iue0b6i6wl">Piazza</a></li>
+  		<li><a href="#Anonymous Feedback">Anonymous Feedback</a></li>
+  		<li><a href="#Syllabus">Syllabus</a></li>
+  		<li><a href="http://www.cdf.toronto.edu/using_cdf/labs.html">CDF labs</a></li>
+  		<li><a href="#Course Team">Course Team</a></li>
+	</ul>
+</nav>
+</div>
+
+<section>
+<div>
+  <h3><strong class="blue"><underline>General Information</underline></strong></h3>
+  <p><strong>Instructor:</strong> Mashiyat, Ahmed Shah<br>
+  <strong>Email:</strong> mashiyat@cs.toronto.edu<br>
+		<strong>Office Hours:</strong> Fridays, 4.30pm-6pm, <strong>Office:</strong> BA 3289 (or by appointment)<br>
+		<strong>Course Website:</strong> <a href="http://www.cs.toronto.edu/~mashiyat/csc309/index.htm">http://www.cs.toronto.edu/~mashiyat/csc309/index.htm</a><br>
+		<strong>Discussion forum:</strong> <a href="https://piazza.com/class/ij76iue0b6i6wl">https://piazza.com/class/ij76iue0b6i6wl</a><br>
+		<strong>Markus:</strong> <a href="https://markus.cdf.toronto.edu/csc309-2016-01/en/assignments">https://markus.cdf.toronto.edu/csc309-2016-01/en/assignments</a><br>
+		<strong class="blue">Section L0101/L2001</strong><br>
+		<strong>Class:</strong> Mondays, Wednesdays, 10am-11am, Room: SS2118<br>
+		<strong>Tutorials:</strong> Fridays, 10am-11am, Room: SS2102<br>
+		<strong class="blue">Section L2501/L5101</strong><br>
+		<strong>Class:</strong> Mondays, 6pm-8pm, Room: BA1170<br>
+		<strong>Tutorials:</strong>Mondays, 8pm-9pm, Room: BA1170</p>
+
+</div>
+</section>
+
+
+
+<div>
+  <h3><strong class="blue"><underline>Overview</underline></strong></h3>
+  <p>This course provides an introduction to the technologies used for developing Web applications. We discuss technologies for static and dynamic content generation, including N-tier, MVC architectures, and mobile supported web development. We also cover general web design principles, security, and web performance.</p>
+</div>
+
+<div >
+  <h3><strong class="blue"><underline>Recommended Readings</underline></strong></h3>
+  <p>Web Programming Step by Step, by Marty Steep, Jessica Miller and Victoria Kirst
+Standard documents from: <a href="http://www.w3.org, and http://nodejs.org/api/">http://www.w3.org</a>, and <a href="http://nodejs.org/api"> http://nodejs.org/api/</a> </p> 
+</div>
+
+<div>
+  <h3><strong class="blue"><underline>Prerequisites</underline></strong></h3>
+  <p>Prerequisite of CSC343 is waived. Students who don't have CSC209 need to show experience in developing programs of significant size.</p>
+</div>
+
+<div>
+  <h3 id="Assignments"><strong class="blue"><underline>Marking</underline></strong></h3>
+  <p><strong>Course grade will be determined by Four assignments and a final exam as follows:</strong></p> 
+</div>
+
+<p>
+<div class="Table">
+	<div class="Heading">
+		<div class="Cell"></div>
+		<div class="Cell"></div>
+		<div class="Cell">Weight %</div>
+		<div class="Cell">Out</div>
+		<div class="Cell">Due</div>
+	</div>
+	<div class="Row">
+		<div class="Cell"><a href="http://www.cs.toronto.edu/~mashiyat/csc309/Assignments/CSC309-A1.pdf">A1 (HTML & CSS)</a></div>
+		<div class="Cell">Individual</div>
+		<div class="Cell">10</div>
+		<div class="Cell">January 13</div>
+		<div class="Cell">January 27</div>
+	</div>
+	<div class="Row">
+		<div class="Cell"><a>A2 (JavaScript & Canvas)</a></div>
+		<div class="Cell">Group of 2</div>
+		<div class="Cell">15</div>
+		<div class="Cell">January 28</div>
+		<div class="Cell">February 14</div>
+	</div>
+	<div class="Row">
+		<div class="Cell"><a>A3 (Web Service)</a></div>
+		<div class="Cell">Individual</div>
+		<div class="Cell">15</div>
+		<div class="Cell">February 15</div>
+		<div class="Cell">February 28</div>
+	</div>
+	<div class="Row">
+		<div class="Cell"><a>A4 (Large App) P1</a></div>
+		<div class="Cell">Group of 4</div>
+		<div class="Cell">5</div>
+		<div class="Cell">February 29</div>
+		<div class="Cell">March 9</div>
+	</div>
+	<div class="Row">
+		<div class="Cell"><a>A4 (Large App) P2</a></div>
+		<div class="Cell">Group of 4</div>
+		<div class="Cell">20</div>
+		<div class="Cell"></div>
+		<div class="Cell">April 3</div>
+	</div>
+	<div class="Row">
+		<div class="Cell">Final Exam</div>
+		<div class="Cell"></div>
+		<div class="Cell">35 (Pass mark: above 40%)</div>
+		<div class="Cell"></div>
+		<div class="Cell">TBA</div>
+	</div>
+</div><br><br><br>
+</p>
+<div>
+  <h3><strong class="blue"><underline>Assignment/Project Policies</underline></strong></h3>
+  <ul>
+  	<li>Course grade will be determined by Four assignments and a final exam as follows:Assignments will be posted on the course web page. Deadlines are fixed. No extension will be allowed.</li>
+  	<li>All deliverables should be submitted electronically (through markus).</li>
+  	<li>Assignments are due at <underline>11.59 pm</underline> on their due date. <strong>Submit early to avoid last minute submission related problems.</strong> Email submission will not be be accepted unless markus is down. Email submission at the eleventh hour will be considered as late submission.</li>
+  </ul>
+</div>
+<div>
+<ol>
+	<li><strong>Late coursework.</strong> You can turn in your assignment up to <strong>2 days</strong> late, but this will cost you <strong>10%</strong> of the maximum grade for every day you are late (i.e., an assignment turned 2 days late  can get a maximum of 12/15). No assignment will be accepted after 2 days, and will be given a grade of 0. If you are struggling with an assignment, talk to the instructor or the TA's for help well before the deadline.</li>
+	<li><strong>Re-marking.</strong> You have up to 5 days from the time the marked assignment is available for hand-back to ask for a re-mark. <strong>No assignment will be re-marked after this period.</strong> Details will be posted on the course's newsgroup. If you are still dissatisfied after talking to the TA, then email the instructor to set an appointment.</li>
+	<li><strong>Communications.</strong> Your best bet for getting questions answered quickly is to post to the course discussion group. If you think your question is not appropriate for the newsgroup, feel free to email the instructor. <underline>Please make sure to include "CSC309" in the subject line of your email.</underline> Finally, before you email the instructor, please check the newsgroup; your question may have already been answered.</li>
+	<li><strong>Cheating/Plagiarism.</strong> The policy of your faculty or school will be in effect. You are encouraged to discuss problems with your classmates; however, all work that you submit must be your own. When you submit an assignment with your name on it, you are certifying that you have done the work on that assignment yourself. Remember that the penalty for cheating is always worse than handing in the assignment late.
+	<div> <a href="#Home">[Top]</a></div></li><br><br><br>
+</ol>
+</div>
+
+<div>
+  <h3   id="Syllabus"><strong class="blue"><underline>Class Schedule (Section L0101/L2001)</underline></strong></h3>
+ </div>
+
+<p>
+<div class="Table">
+	<div class="Heading">
+		<div class="Cell">Week</div>
+		<div class="Cell"></div>
+		<div class="Cell">L0101/L2001</div>
+		<div class="Cell">Topic</div>
+	</div>
+	<div class="Row">
+		<div class="Cell">1</div>
+		<div class="Cell">Class</div>
+		<div class="Cell">January 11,13</div>
+		<div class="Cell"><a href="http://www.cs.toronto.edu/~mashiyat/csc309/Lectures/1.1-introduction.pdf">Introduction, HTTP <a href="http://www.cs.toronto.edu/~mashiyat/csc309/Lectures/1.2-the-internet-and-the-www.pdf">1, <a href="http://www.cs.toronto.edu/~mashiyat/csc309/Lectures/2.1-simple-web-request.pdf">2</a>, <a href="http://www.cs.toronto.edu/~mashiyat/csc309/Lectures/2.2-html-basics.pdf">HTML</a>, <a href="http://www.cs.toronto.edu/~mashiyat/csc309/Lectures/2.3-css.pdf">Page Layout</a>, and <a href="http://www.cs.toronto.edu/~mashiyat/csc309/Lectures/2.4-css-page-layout.pdf"> CSS</a>, <a href="http://www.w3schools.com"> w3schools</a></div>
+	</div>
+	<div class="Row">
+		<div class="Cell"></div>
+		<div class="Cell">Tutorial</div>
+		<div class="Cell">January 15</div>
+		<div class="Cell"><a href="http://www.cs.toronto.edu/~mashiyat/csc309/Tutorial/1.%20Git.pdf"> Git-Social Coding</a></div>
+	</div>
+	<div class="Row">
+		<div class="Cell">2</div>
+		<div class="Cell">Class</div>
+		<div class="Cell">January 18,20</div>
+		<div class="Cell"><a href="http://www.cs.toronto.edu/~mashiyat/csc309/Lectures/2.1%20HTML5%20and%20CSS3.pdf"> HTML5, CSS3</a> ,<a href="http://www.cs.toronto.edu/~mashiyat/csc309/Lectures/Responsive%20Design%20and%20UX.pdf"> Media Queries</a>, <a href="http://www.cs.toronto.edu/~mashiyat/csc309/Lectures/DOM.pdf"> DOM</a>, <a href="http://www.cs.toronto.edu/~mashiyat/csc309/Lectures/Demos.zip" download>Demo</a></div>
+	</div>
+	<div class="Row">
+		<div class="Cell"></div>
+		<div class="Cell">Tutorial</div>
+		<div class="Cell">January 22</div>
+		<div class="Cell"> Page Inspection, <a href="http://www.cs.toronto.edu/~mashiyat/csc309/Lectures/LESS.pdf">Less/Sass</a></div>
+	</div>
+	<div class="Row">
+		<div class="Cell">3</div>
+		<div class="Cell">Class</div>
+		<div class="Cell">January 25, 27</div>
+		<div class="Cell"><a href="http://www.cs.toronto.edu/~mashiyat/csc309/Lectures/Session_Cookies.pdf"> Sessions and Cookie</a>, <a href="http://www.cs.toronto.edu/~mashiyat/csc309/Lectures/javascript.pdf"> Javascript, HTML Canvas</a>,<a href="http://www.cs.toronto.edu/~mashiyat/csc309/Lectures/class3.zip" downlaod> examples</a></div>
+	</div>
+
+	<div class="Heading">
+		<div class="Row">
+			<div class="Cell"></div>
+			<div class="Cell"></div>
+			<div class="Cell">January 27</div>
+			<div class="Cell">Assignment 1 Due, 11.59 PM</div>
+		</div>
+	</div>
+	<div class="Row">
+		<div class="Cell"></div>
+		<div class="Cell">Tutorial</div>
+		<div class="Cell">January 29</div>
+		<div class="Cell">Semantic UI/ Twitter Bootstrap</div>
+	</div>
+	<div class="Row">
+		<div class="Cell">4</div>
+		<div class="Cell">Class</div>
+		<div class="Cell">February 1, 3</div>
+		<div class="Cell">AJAX, JSON,  Web Architectures, REST API</div>
+	</div>
+	<div class="Row">
+		<div class="Cell"></div>
+		<div class="Cell">Tutorial</div>
+		<div class="Cell">February 5</div>
+		<div class="Cell">JQuery</div>
+	</div>
+	<div class="Row">
+		<div class="Cell">5</div>
+		<div class="Cell">Class</div>
+		<div class="Cell">February 8, 10</div>
+		<div class="Cell">HTML Forms, Server-Side Programming, NodeJS</div>
+	</div>
+	<div class="Row">
+		<div class="Cell"></div>
+		<div class="Cell">Tutoral</div>
+		<div class="Cell">February 12</div>
+		<div class="Cell">Nodejs-MongoDB Setup</div>
+	</div>
+	<div class="Heading">
+		<div class="Row">
+			<div class="Cell"></div>
+			<div class="Cell"></div>
+			<div class="Cell">February 14</div>
+			<div class="Cell">Assignment 2 Due, 11.59 PM</div>
+		</div>
+	</div>
+	<div class="Row">
+		<div class="Cell">6</div>
+		<div class="Cell">Class</div>
+		<div class="Cell">February 15, 17</div>
+		<div class="Cell">No Class, Family Day</div>
+	</div>
+	<div class="Row">
+		<div class="Cell"></div>
+		<div class="Cell">Tutorial</div>
+		<div class="Cell">February 19</div>
+		<div class="Cell">No Tutorial, Reading Week</div>
+	</div>
+	<div class="Row">
+		<div class="Cell">7</div>
+		<div class="Cell">Class</div>
+		<div class="Cell">February 22, 24</div>
+		<div class="Cell">ExpressJS, AngularJS</div>
+	</div>
+	<div class="Row">
+		<div class="Cell"></div>
+		<div class="Cell">Tutorial</div>
+		<div class="Cell">February 26</div>
+		<div class="Cell">AngularJS</div>
+	</div>
+	<div class="Heading">
+		<div class="Row">
+			<div class="Cell"></div>
+			<div class="Cell"></div>
+			<div class="Cell">February 28</div>
+			<div class="Cell">Assignment 3 Due, 11.59 PM</div>
+		</div>
+	</div>
+	<div class="Row">
+		<div class="Cell">8</div>
+		<div class="Cell">Class</div>
+		<div class="Cell">Feb. 29, March 2</div>
+		<div class="Cell">MongoDB Schema Design, Databases</div>
+	</div>
+	<div class="Row">
+		<div class="Cell"></div>
+		<div class="Cell">Tutorial</div>
+		<div class="Cell">March 4</div>
+		<div class="Cell">Testing with Mocha</div>
+	</div>
+	<div class="Row">
+		<div class="Cell">9</div>
+		<div class="Cell">Class</div>
+		<div class="Cell">March 7, 9</div>
+		<div class="Cell">Sessions and Cookies, Performance</div>
+	</div>
+	<div class="Heading">
+		<div class="Row">
+			<div class="Cell"></div>
+			<div class="Cell"></div>
+			<div class="Cell">March 9</div>
+			<div class="Cell">Assignment 4 (Part 1) Due, 11.59 PM</div>
+		</div>
+	</div>
+	<div class="Row">
+		<div class="Cell"></div>
+		<div class="Cell">Turotial</div>
+		<div class="Cell">March 11</div>
+		<div class="Cell">Performance</div>
+	</div>
+	<div class="Row">
+		<div class="Cell">10</div>
+		<div class="Cell">Class</div>
+		<div class="Cell">March 14, 16</div>
+		<div class="Cell">Web Security</div>
+	</div>
+	<div class="Row">
+		<div class="Cell"></div>
+		<div class="Cell">Tutorial</div>
+		<div class="Cell">March 18</div>
+		<div class="Cell">Web Security</div>
+	</div>
+	<div class="Row">
+		<div class="Cell">11</div>
+		<div class="Cell">Class</div>
+		<div class="Cell">March 21, 23</div>
+		<div class="Cell">Cloud Computing, From Project to Product</div>
+	</div>
+	<div class="Row">
+		<div class="Cell"></div>
+		<div class="Cell">Tutorial</div>
+		<div class="Cell">March 25</div>
+		<div class="Cell">Good Friday</div>
+	</div>
+	<div class="Row">
+		<div class="Cell">12</div>
+		<div class="Cell">Class</div>
+		<div class="Cell">March 28, 30</div>
+		<div class="Cell">Web Search Engine, Advanced Topics</div>
+	</div>
+	<div class="Row">
+		<div class="Cell"></div>
+		<div class="Cell">Tutorial</div>
+		<div class="Cell">April 1</div>
+		<div class="Cell">Assignment 4 Problem Solving</div>
+	</div>
+	<div class="Heading">
+		<div class="Row">
+			<div class="Cell"></div>
+			<div class="Cell"></div>
+			<div class="Cell">April 3</div>
+			<div class="Cell">Assignment 4 (Part 2)  Due, 11.59 PM</div>
+		</div>
+	</div>
+	<div class="Row">
+		<div class="Cell">13</div>
+		<div class="Cell">Class</div>
+		<div class="Cell">April 4,6</div>
+		<div class="Cell">Review, informal Discussion, what's Next?</div>
+	</div>
+	<div class="Row">
+		<div class="Cell"></div>
+		<div class="Cell">Tutorial</div>
+		<div class="Cell">April 8</div>
+		<div class="Cell">No Tutorial</div>
+	</div>
+	<div class="Row">
+		<div class="Cell"></div>
+		<div class="Cell"></div>
+		<div class="Cell">TBA</div>
+		<div class="Cell">Final Exam</div>
+	</div>
+</div>
+<br><br><br>
+</p>
+
+
+
+<!--Class Schedule (Section L2501/L5101)-->
+<div>
+  <h3   id="Syllabus"><strong class="blue"><underline>Class Schedule (Section L2501/L5101)</underline></strong></h3>
+ </div>
+
+<div class="Table">
+	<div class="Heading">
+		<div class="Cell">Week</div>
+		<div class="Cell"></div>
+		<div class="Cell">L2501/L5101</div>
+		<div class="Cell">Topic</div>
+	</div>
+	<div class="Row">
+		<div class="Cell">1</div>
+		<div class="Cell">Class</div>
+		<div class="Cell">January 11</div>
+		<div class="Cell"><a href="http://www.cs.toronto.edu/~mashiyat/csc309/Lectures/1.1-introduction.pdf">Introduction, HTTP <a href="http://www.cs.toronto.edu/~mashiyat/csc309/Lectures/1.2-the-internet-and-the-www.pdf">1, <a href="http://www.cs.toronto.edu/~mashiyat/csc309/Lectures/2.1-simple-web-request.pdf">2</a>, <a href="http://www.cs.toronto.edu/~mashiyat/csc309/Lectures/2.2-html-basics.pdf">HTML</a>, <a href="http://www.cs.toronto.edu/~mashiyat/csc309/Lectures/2.3-css.pdf">Page Layout</a>, and <a href="http://www.cs.toronto.edu/~mashiyat/csc309/Lectures/2.4-css-page-layout.pdf"> CSS</a>, <a href="http://www.w3schools.com"> w3schools</a></div>
+	</div>
+	<div class="Row">
+		<div class="Cell"></div>
+		<div class="Cell">Tutorial</div>
+		<div class="Cell"></div>
+		<div class="Cell"><a href="http://www.cs.toronto.edu/~mashiyat/csc309/Tutorial/1.%20Git.pdf"> Git-Social Coding</a></div>
+	</div>
+	<div class="Row">
+		<div class="Cell">2</div>
+		<div class="Cell">Class</div>
+		<div class="Cell">January 18</div>
+		<div class="Cell"><a href="http://www.cs.toronto.edu/~mashiyat/csc309/Lectures/2.1%20HTML5%20and%20CSS3.pdf"> HTML5, CSS3</a> ,<a href="http://www.cs.toronto.edu/~mashiyat/csc309/Lectures/Responsive%20Design%20and%20UX.pdf"> Media Queries</a>, <a href="http://www.cs.toronto.edu/~mashiyat/csc309/Lectures/DOM.pdf"> DOM</a>, <a href="http://www.cs.toronto.edu/~mashiyat/csc309/Lectures/Demos.zip" download>Demo</a></div>
+	</div>
+	<div class="Row">
+		<div class="Cell"></div>
+		<div class="Cell">Tutorial</div>
+		<div class="Cell">J</div>
+		<div class="Cell">Page Inspection, <a href="http://www.cs.toronto.edu/~mashiyat/csc309/Lectures/LESS.pdf">Less/Sass</a></div>
+	</div>
+		<div class="Row">
+		<div class="Cell">3</div>
+		<div class="Cell">Class</div>
+		<div class="Cell">January 25</div>
+		<div class="Cell"><a href="http://www.cs.toronto.edu/~mashiyat/csc309/Lectures/Session_Cookies.pdf"> Sessions and Cookie</a>, <a href="http://www.cs.toronto.edu/~mashiyat/csc309/Lectures/javascript.pdf"> Javascript, HTML Canvas</a>,<a href="http://www.cs.toronto.edu/~mashiyat/csc309/Lectures/class3.zip" downlaod> examples</a></div>
+	</div>
+	<div class="Heading">
+		<div class="Row">
+			<div class="Cell"></div>
+			<div class="Cell"></div>
+			<div class="Cell">January 27</div>
+			<div class="Cell">Assignment 1 Due, 11.59 PM</div>
+		</div>
+	</div>
+	<div class="Row">
+		<div class="Cell"></div>
+		<div class="Cell">Tutorial</div>
+		<div class="Cell"></div>
+		<div class="Cell">Semantic UI/ Twitter Bootstrap</div>
+	</div>
+	<div class="Row">
+		<div class="Cell">4</div>
+		<div class="Cell">Class</div>
+		<div class="Cell">February 1</div>
+		<div class="Cell">AJAX, JSON,  Web Architectures, REST API</div>
+	</div>
+	<div class="Row">
+		<div class="Cell"></div>
+		<div class="Cell">Tutorial</div>
+		<div class="Cell"></div>
+		<div class="Cell">JQuery</div>
+	</div>
+	<div class="Row">
+		<div class="Cell">5</div>
+		<div class="Cell">Class</div>
+		<div class="Cell">February 8</div>
+		<div class="Cell">HTML Forms, Server-Side Programming, NodeJS</div>
+	</div>
+		<div class="Row">
+		<div class="Cell"></div>
+		<div class="Cell">Tutoral</div>
+		<div class="Cell"></div>
+		<div class="Cell">Nodejs-MongoDB Setup</div>
+	</div>
+	<div class="Heading">
+		<div class="Row">
+			<div class="Cell"></div>
+			<div class="Cell"></div>
+			<div class="Cell">February 14</div>
+			<div class="Cell">Assignment 2 Due, 11.59 PM</div>
+		</div>
+	</div>
+	<div class="Row">
+		<div class="Cell">6</div>
+		<div class="Cell">Class</div>
+		<div class="Cell">February 15, 17</div>
+		<div class="Cell">No Class, Family Day</div>
+	</div>
+	<div class="Row">
+		<div class="Cell"></div>
+		<div class="Cell">Tutorial</div>
+		<div class="Cell"></div>
+		<div class="Cell">No Tutorial, Reading Week</div>
+	</div>
+	<div class="Row">
+		<div class="Cell">7</div>
+		<div class="Cell">Class</div>
+		<div class="Cell">February 22</div>
+		<div class="Cell">ExpressJS, AngularJS</div>
+	</div>
+	<div class="Row">
+		<div class="Cell"></div>
+		<div class="Cell">Tutorial</div>
+		<div class="Cell"></div>
+		<div class="Cell">AngularJS</div>
+	</div>
+	<div class="Heading">
+		<div class="Row">
+			<div class="Cell"></div>
+			<div class="Cell"></div>
+			<div class="Cell">February 28</div>
+			<div class="Cell">Assignment 3 Due, 11.59 PM</div>
+		</div>
+	</div>
+	<div class="Row">
+		<div class="Cell">8</div>
+		<div class="Cell">Class</div>
+		<div class="Cell">Feb. 29</div>
+		<div class="Cell">MongoDB Schema Design, Databases</div>
+	</div>
+	<div class="Row">
+		<div class="Cell"></div>
+		<div class="Cell">Tutorial</div>
+		<div class="Cell"></div>
+		<div class="Cell">Testing with Mocha</div>
+	</div>
+	<div class="Row">
+		<div class="Cell">9</div>
+		<div class="Cell">Class</div>
+		<div class="Cell">March 7</div>
+		<div class="Cell">Sessions and Cookies, Performance</div>
+	</div>
+	<div class="Heading">
+		<div class="Row">
+			<div class="Cell"></div>
+			<div class="Cell"></div>
+			<div class="Cell">March 9</div>
+			<div class="Cell">Assignment 4 (Part 1) Due, 11.59 PM</div>
+		</div>
+	</div>
+	<div class="Row">
+		<div class="Cell"></div>
+		<div class="Cell">Turotial</div>
+		<div class="Cell"></div>
+		<div class="Cell">Performance</div>
+	</div>
+	<div class="Row">
+		<div class="Cell">10</div>
+		<div class="Cell">Class</div>
+		<div class="Cell">March 14</div>
+		<div class="Cell">Web Security</div>
+	</div>
+	<div class="Row">
+		<div class="Cell"></div>
+		<div class="Cell">Tutorial</div>
+		<div class="Cell"></div>
+		<div class="Cell">Web Security</div>
+	</div>
+	<div class="Row">
+		<div class="Cell">11</div>
+		<div class="Cell">Class</div>
+		<div class="Cell">March 21</div>
+		<div class="Cell">Cloud Computing, From Project to Product</div>
+	</div>
+	<div class="Row">
+		<div class="Cell"></div>
+		<div class="Cell">Tutorial</div>
+		<div class="Cell"></div>
+		<div class="Cell">Good Friday</div>
+	</div>
+	<div class="Row">
+		<div class="Cell">12</div>
+		<div class="Cell">Class</div>
+		<div class="Cell">March 28</div>
+		<div class="Cell">Web Search Engine, Advanced Topics</div>
+	</div>
+	<div class="Row">
+		<div class="Cell"></div>
+		<div class="Cell">Tutorial</div>
+		<div class="Cell"></div>
+		<div class="Cell">Assignment 4 Problem Solving</div>
+	</div>
+	<div class="Heading">
+		<div class="Row">
+			<div class="Cell"></div>
+			<div class="Cell"></div>
+			<div class="Cell">April 3</div>
+			<div class="Cell">Assignment 4 (Part 2)  Due, 11.59 PM</div>
+		</div>
+	</div>
+	<div class="Row">
+		<div class="Cell">13</div>
+		<div class="Cell">Class</div>
+		<div class="Cell">April 4</div>
+		<div class="Cell">Review, informal Discussion, whats Next?</div>
+	</div>
+	<div class="Row">
+		<div class="Cell"></div>
+		<div class="Cell">Tutorial</div>
+		<div class="Cell"></div>
+		<div class="Cell">No Tutorial</div>
+	</div>
+	<div class="Row">
+		<div class="Cell"></div>
+		<div class="Cell"></div>
+		<div class="Cell">TBA</div>
+		<div class="Cell">Final Exam</div>
+	</div>
+</div>
+
+
+<div> <a href='#Home'>[Top]</a></div>
+
+<div >
+  <h3 id="Course Team"><strong class="blue"><underline>Course Team</underline></strong></h3>
+  <p>Instructor: Mashiyat, Ahmed Shah<br>
+  Email: mashiyat@cs.toronto.edu<br>
+		</p>
+	<p>TA: Zhicong Lu   Emai:luzhc@cs.toronto.edu<br>
+	    TA:Ayazhan   Email:Zhakhanzh.ayazhan@gmail.com<br>
+	    TA:MuhammadTalha   Email:Malikmalik@ece.utoronto.ca<br>
+TA:Ning LIN   Email:ning.lin@mail.utoronto.ca<br>
+TA:Kyriakos Georgiou   Email:kyriakos@cs.toronto.edu<br>
+TA:Ihsan Etwaroo  Email:ihsan.etwaroo@mail.utoronto.ca<br>
+TA:Mohammad Hossein Danesh   Email:danesh@cs.toronto.edu<br><div> <a href='#Home'>[Top]</a></div></p>
+
+</div>
+
+<div>
+  <h3 id="Anonymous Feedback"><strong class="blue"><underline>Anonymous Feedback</underline></strong></h3>
+  <form class="form-class" action="contact.php" method="post">
+    <strong>(Optional)Your Name:</strong>
+    <input type="text" name="cf_name"><br><br>
+    <strong>(Optional)Your Email:</strong>
+    <input type="text" name="cf_email"><br><br>
+    <strong>Your Message:</strong><br>
+    <textarea rows="15" cols="60" placeholder= "Type in your message here" style="resize:none"></textarea><br>
+    <input type="submit" value="Send">
+    <input type="reset" value="Clear">
+</form>
+  <div> <a href='#Home'>[Top]</a></div>
+</div>
+
+<footer>
+<a href="http://web.cs.toronto.edu" >http://web.cs.toronto.edu</a><br>
+All Copyright reserved to Ziyang Jiang 2016. <br>
+Last Update: Jan. 27th, 2016
+</footer>
+
+</body>
+</html>

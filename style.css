@@ -1,0 +1,130 @@
+header{
+    color:#3498D8;
+    text-align: center;
+}
+
+body{
+    margin: 50px 50px;
+}
+
+.blue{
+    color:#3498D8;
+}
+underline{
+    text-decoration: underline;
+}
+
+
+#menu{
+    max-width: 80%;
+}
+
+.col{
+    max-width: 30%;
+    float:left;
+}
+
+.active {
+/*blue*/
+    background-color: #3498D8;
+}
+/*create table*/
+.Table{
+    display:table;
+}
+.Row{
+    display: table-row;
+}
+.Cell{
+    display:table-cell;
+    border:solid#ECF0F1;
+    border-width: thin;
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+.Heading{
+    display: table-header-group;
+    font-weight: bold;
+    text-align: center;
+    color: #3498D8;
+}
+
+footer{
+    background-color: #ECF0F1;
+    margin: 25px 25px;
+    width: 90%;
+    color: #3498D8;
+    clear: both;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+/*refer to http://gabrieleromanato.name/css-creating-mobile-friendly-menus-with-media-queries/*/
+#navigation {
+    background: #2C3E50;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 5px;
+/*dark grey*/
+}
+
+#navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 100%;
+    white-space: nowrap;
+}
+
+#navigation li {
+    float: left;
+    height: 100%;
+}
+
+#navigation a {
+    float: left;
+    height: 100%;
+    line-height: 3;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 1em;
+
+}
+
+#navigation a:hover {
+    background: #666;
+}
+
+textarea{
+    width: 80%;
+}
+
+
+@media only screen and (max-width: 900px) {
+    #navigation,
+    #navigation ul {
+    
+        height: auto;
+    }
+    #navigation li, #navigation a {
+        float: none;
+        display: block;
+        margin: 0;
+        height: auto;
+    }
+    
+    #navigation a {
+        width: auto;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        padding: 0.3em;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .Table div {
+        ;
+    }
+}
